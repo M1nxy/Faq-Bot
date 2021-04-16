@@ -17,6 +17,9 @@ module.exports = {
 
       message.channel.send({
         embed: {
+          thumbnail: {
+            url: 'https://i.imgur.com/fBppuzg.png',
+          },
           color: 'DARK_GREY',
           author: { name: 'Help Menu' },
           footer: { text: "MinxterYT's Faq Bot" },

@@ -35,9 +35,15 @@ module.exports = {
       image: 'https://i.imgur.com/luJqI8N.png',
       fields: [
         {
-          name: 'Coming Soon™',
-          value: 'resource link',
-        }
+          "value": "[link to resource](https://phoenixpwn.com/)",
+          "name": "phoenix",
+          "inline": true
+        },
+        {
+          "value": "[link to resource](http://wall.supplies/)",
+          "name": "Home Depot",
+          "inline": true
+        },
       ]
     },
     10: {
@@ -45,9 +51,10 @@ module.exports = {
       image: 'https://i.imgur.com/TVS4RmZ.png',
       fields: [
         {
-          name: 'Coming Soon™',
-          value: 'resource link',
-        }
+          "value": "[link to resource](https://totally-not.spyware.lol/)",
+          "name": "TotallyNotSpyware",
+          "inline": true
+        },
       ]
     },
     11: {
@@ -55,9 +62,15 @@ module.exports = {
       image: 'https://i.imgur.com/Ha0dqF0.png',
       fields: [
         {
-          name: 'Coming Soon™',
-          value: 'resource link',
-        }
+          "value": "[link to resource](https://unc0ver.dev/)",
+          "name": "Unc0ver",
+          "inline": true
+        },
+        {
+          "value": "[link to resource](https://coolstar.org/electra/)",
+          "name": "Electra",
+          "inline": true
+        },
       ]
     },
     12: {
@@ -65,9 +78,15 @@ module.exports = {
       image: 'https://i.imgur.com/4swmdwl.png',
       fields: [
         {
-          name: 'Coming Soon™',
-          value: 'resource link',
-        }
+          "value": "[link to resource](https://unc0ver.dev/)",
+          "name": "Unc0ver",
+          "inline": true
+        },
+        {
+          "value": "[link to resource](https://chimera.coolstar.org/)",
+          "name": "Chimera",
+          "inline": true
+        },
       ]
     },
     13: {
@@ -75,8 +94,19 @@ module.exports = {
       image: 'https://i.imgur.com/8MnFo4O.png',
       fields: [
         {
-          name: 'Coming Soon™',
-          value: 'resource link',
+          "value": "[link to resource](https://unc0ver.dev/)",
+          "name": "Unc0ver",
+          "inline": true
+        },
+        {
+          "value": "[link to resource](https://checkra.in/)",
+          "name": "Checkra1n",
+          "inline": true
+        },
+        {
+          "value": "[link to resource](https://theodyssey.dev/)",
+          "name": "Odyssey",
+          "inline": false
         }
       ]
     },
@@ -85,8 +115,19 @@ module.exports = {
       image: 'https://i.imgur.com/MWV0I30.png',
       fields: [
         {
-          name: 'Coming Soon™',
-          value: 'resource link',
+          "value": "[link to resource](https://unc0ver.dev/)",
+          "name": "Unc0ver",
+          "inline": true
+        },
+        {
+          "value": "[link to resource](https://checkra.in/)",
+          "name": "Checkra1n",
+          "inline": true
+        },
+        {
+          "value": "[link to resource](https://taurine.app)",
+          "name": "Taurine",
+          "inline": false
         }
       ]
     }

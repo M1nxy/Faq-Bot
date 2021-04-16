@@ -21,8 +21,11 @@ module.exports = {
             url: 'https://i.imgur.com/fBppuzg.png',
           },
           color: 'DARK_GREY',
-          author: { name: 'Help Menu' },
-          footer: { text: "MinxterYT's Faq Bot" },
+          author: { name: 'FAQ BOT - Help Menu' },
+          footer: {
+            text: "MinxterYT's FAQ Bot",
+            icon_url: 'https://cdn.discordapp.com/avatars/719292655963734056/5ac32a24129a2d2a6762f824204180aa.webp',
+          },
           fields: [
             { name: 'Jailbreaks', value: jailbreaks },
             { name: 'Theming', value: theming },
@@ -43,8 +46,11 @@ module.exports = {
       message.channel.send({
         embed: {
           color: 'DARK_GREY',
-          author: { name: 'Help Menu' },
-          footer: { text: 'By MinxterYT' },
+          author: { name: 'FAQ BOT - Help Menu' },
+          footer: {
+            text: "MinxterYT's FAQ Bot",
+            icon_url: 'https://cdn.discordapp.com/avatars/719292655963734056/5ac32a24129a2d2a6762f824204180aa.webp',
+          },
           fields: [
             { name: 'Name', value: command.name, inline: true },
             { name: 'Category', value: command.category, inline: true },

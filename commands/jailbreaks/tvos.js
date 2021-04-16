@@ -13,15 +13,15 @@ module.exports = {
       message.channel.send('Coming Soon™')
       /*
       const result = {
-        color: client.info.ios[args[0]].color,
+        color: client.info.tvos[args[0]].color,
         author: {
           name: 'FAQ BOT'
         },
         description: `How to jailbreak tvos ${args[0]}`,
         thumbnail: {
-          url: client.info.ios[args[0]].image,
+          url: client.info.tvos[args[0]].image,
         },
-        fields: client.info.ios[args[0]].fields,
+        fields: client.info.tvos[args[0]].fields,
         timestamp: new Date(),
         footer: {
           text: "MinxterYT's FAQ Bot",

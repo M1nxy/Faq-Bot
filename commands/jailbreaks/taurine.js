@@ -1,8 +1,8 @@
 module.exports = {
-  name: 'zebra',
+  name: 'taurine',
   aliases: [],
-  category: 'PackageManagers',
-  utilisation: '{prefix]Zebra',
+  category: 'Jailbreaks',
+  utilisation: '{prefix]Taurine',
 
   execute(client, message, args) {
     try {
@@ -14,5 +14,3 @@ module.exports = {
 
   },
 };
-
-

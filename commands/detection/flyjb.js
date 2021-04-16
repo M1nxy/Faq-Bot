@@ -1,8 +1,8 @@
 module.exports = {
-  name: 'zebra',
+  name: 'flyjb',
   aliases: [],
-  category: 'PackageManagers',
-  utilisation: '{prefix]Zebra',
+  category: 'Detection',
+  utilisation: '{prefix]Flyjb',
 
   execute(client, message, args) {
     try {
@@ -14,5 +14,3 @@ module.exports = {
 
   },
 };
-
-

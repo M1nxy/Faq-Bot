@@ -1,7 +1,6 @@
 const fs = require('fs');
 const discord = require('discord.js');
 
-
 const client = new discord.Client({ disableMentions: 'everyone' });
 client.info = require('./config/info');
 client.config = require('./config/bot');
@@ -28,7 +27,6 @@ for (const file of events) {
 
 client.on("guildCreate", guild => {
   console.log("Joined guild => " + guild.name);
-  DB.set(guild.id, "!");
   fs.appendFile(`Event Log.txt`, `Joined guild =>	${guild.name}\n`, (err) => {
     if (err) throw err;
   });
@@ -36,8 +34,7 @@ client.on("guildCreate", guild => {
 
 client.on("guildDelete", guild => {
   console.log("Left guild => " + guild.name);
-  DB.delete(guild.id);
-  fs.appendFile(`Fetched.txt`, `Left guild =>	${guild.name}\n`, (err) => {
+  fs.appendFile(`Event Log.txt`, `Left guild =>	${guild.name}\n`, (err) => {
     if (err) throw err;
   });
 });

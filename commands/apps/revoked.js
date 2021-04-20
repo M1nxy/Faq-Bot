@@ -1,6 +1,6 @@
 module.exports = {
   name: 'revoked',
-  aliases: ['sign', 'signitures'],
+  aliases: ['signed', 'signitures', 'sign'],
   category: 'Apps',
   utilisation: '{prefix]Revoked',
 

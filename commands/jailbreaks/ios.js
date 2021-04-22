@@ -12,7 +12,7 @@ module.exports = {
       const result = {
         color: client.info.ios[args[0]].color,
         author: {
-          name: 'FAQ BOT'
+          name: 'FAQ BOT - iOS Info'
         },
         description: `How to jailbreak iOS ${args[0]}`,
         thumbnail: {

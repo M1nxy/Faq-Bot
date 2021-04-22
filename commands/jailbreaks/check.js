@@ -1,6 +1,6 @@
 module.exports = {
   name: 'check',
-  aliases: [],
+  aliases: ['cani', 'canijailbreak'],
   category: 'Jailbreaks',
   utilisation: '{prefix]Check',
 
@@ -9,7 +9,7 @@ module.exports = {
       const result = {
         color: '#ff69b4',
         author: {
-          name: 'FAQ BOT'
+          name: 'FAQ BOT - CanIJailbreak'
         },
         description: `Check whether or not you can jailbreak your device`,
         thumbnail: {

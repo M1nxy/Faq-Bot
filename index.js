@@ -1,7 +1,7 @@
 const fs = require('fs');
 const discord = require('discord.js');
 
-const client = new discord.Client({ disableMentions: 'everyone' });
+const client = new discord.Client({ disableMentions: 'everyone', ws: { properties: { $browser: "Discord iOS" }} });
 client.info = require('./config/info');
 client.config = require('./config/bot');
 client.commands = new discord.Collection();

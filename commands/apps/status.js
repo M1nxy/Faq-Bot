@@ -27,6 +27,9 @@ module.exports = {
           }
           message.channel.send({
             embed: {
+              author: {
+                name: 'FAQ BOT - Jailbreaks.apps'
+              },
               title: "Status",
               description: status,
               color: color,

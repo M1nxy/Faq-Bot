@@ -1,5 +1,7 @@
 const fetch = require("node-fetch");
 
+// Taken from https://github.com/JailbreaksApp/SignedBot and heavily modified for use in this project
+
 module.exports = {
   name: 'status',
   aliases: ['jailbreaks.app'],
